@@ -9,6 +9,6 @@ class DashboardController extends Controller
 {
     public function dashboard()
     {
-        echo "under maintance";
+        return view('backend.dashboard');
     }
 }
